@@ -1,0 +1,89 @@
+/* General page styling */
+body {
+    font-family:Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #263238;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Main heading */
+h1 {
+    color: #1f4e5f;
+    text-align: center;
+}
+
+/* Introductory text */
+p{
+    text-align: center;
+    font-size: 16px;
+    color: #54656f;
+}
+
+/* Governance practices section */
+.practices-section {
+    max-width: 800px;
+    margin:40px auto;
+}
+
+/* Section heading */
+h2 {
+    color: #1f4e5f;
+    text-align: center;
+}
+
+/* Section description */
+.section-description {
+    margin-bottom: 25px;
+}
+
+/* Individual practice cards */
+.practice-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.practice-card h3{
+    color:#1f4e5f;
+    margin-top:0;
+}
+
+.practice-card p{
+    text-align:left;
+    margin-bottom: 0;
+}
+
+/* Organizational assessment factors */
+.factors-section {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);  
+}
+
+.factors-section ul {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 2;
+}
+
+/* Organizational context */
+.context-section {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.context-section ul {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 2;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Governance Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Technology Governance Assessment and Prioritization</h1>
+    <p>A simple tool for reviewing technology governance practices.</p>
+    <section class="practices-section">
+        <h2>Technology Governance Practice Inventory</h2>
+        <p class="section-description">
+            The following are hypothetical examples for demonstration.
+        </p>
+        <p class="section-description">
+            The factor weights and priority thresholds shown here are illustrative for demonstration purposes. In actual use, an organization would determine its own weights and thresholds.
+        </p>
+    <div class="practice-card">
+        <h3>IT Decision-Making</h3>
+        <p>
+            How the organization makes decisions about technology.
+        </p>
+        
+    </div>
+
+    <div class="practice-card">
+        <h3>Senior Management Involvement</h3>
+        <p>
+            How organizational leadership participates in technology governance.
+        </p>
+        
+    </div>
+
+    <div class="practice-card">
+        <h3>IT-Business Communication</h3>
+        <p>
+            How business and technology needs are communicated.
+        </p>
+        
+    </div>
+
+    <div class="practice-card">
+    <h3>IT-Business Alignment</h3>
+    <p>
+        How technology decisions and activities are aligned with business needs and objectives.
+    </p>
+</div>
+
+<div class="practice-card">
+    <h3>Adaptive or Situation-Based Governance Mechanisms</h3>
+    <p>
+        How governance mechanisms are adapted to the organization's specific circumstances.
+    </p>
+</div>
+
+
+
+
+</section>
+
+<section class="factors-section">
+    <h2>Practice Assessment</h2>
+    <p class="section-description">
+        Select a governance practice to assess using the organizational factors.
+    </p>
+
+    <label for="practice-select">Practice to Assess:</label>
+    <select id="practice-select">
+        <option value="it-decision">IT Decision-Making</option>
+        <option value="management">Senior Management Involvement</option>
+        <option value="communication">IT-Business Communication</option>
+        <option value="alignment">IT-Business Alignment</option>
+        <option value="adaptive">Adaptive or Situation-Based Governance Mechanisms</option>
+    </select>    
+    
+    <p class="section-description">
+        Factors to consider when assessing governance practices.
+    </p>
+
+    <ul>
+        <li>
+            <label>
+                <input type="checkbox" class="factor-check" data-points="10">
+                Ability to remain in operation (10 points)
+            </label>
+        </li>
+        
+        <li>
+            <label>
+                <input type="checkbox" class="factor-check" data-points="9">
+                Mission and vision (9 points)
+            </label>
+        </li>
+
+        <li>
+            <label>
+                <input type="checkbox" class="factor-check" data-points="8">
+                Goals and objectives (8 points)
+            </label>
+        </li>
+
+        <li>
+            <label>
+                <input type="checkbox" class="factor-check" data-points="7">
+                Customers (7 points)
+            </label>
+        </li>
+
+        <li>
+            <label>
+                <input type="checkbox" class="factor-check" data-points="6">
+                Technology orientation (6 points)
+            </label>
+        </li>
+
+        <li>
+            <label>
+                <input type="checkbox" class="factor-check" data-points="5">
+                Resources and capabilities (5 points)
+            </label>
+        </li>
+
+        <li>
+            <label>
+                <input type="checkbox" class="factor-check" data-points="4">
+                External environment (4 points)
+            </label>
+        </li>
+               
+    </ul>
+
+    <p id="score-display">Total Score: 0 / 49</p>
+    <p id="priority-display">
+        Priority: Not yet calculated
+    </p>    
+</section>
+
+<section class="results-section">
+    <h2>Assessment Results</h2>
+    <p class="section-description">
+        Summary of scores and priorities for the assessed governance practices.
+    </p>
+
+    <p class="section-description">
+        Ranks are based on the assessment score, with higher scores receiving higher priority.
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Governance Practice</th>
+                <th>Score</th>
+                <th>Priority</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="rank-it-decision">—</td>
+                <td>IT Decision-Making</td>
+                <td id="score-it-decision">Not assessed</td>
+                <td id="priority-it-decision">—</td>
+            </tr>
+
+            <tr>
+                <td id="rank-management">—</td>
+                <td>Senior Management Involvement</td>
+                <td id="score-management">Not assessed</td>
+                <td id="priority-management">—</td>
+            </tr>
+
+            <tr>
+                <td id="rank-communication">—</td>
+                <td>IT-Business Communication</td>
+                <td id="score-communication">Not assessed</td>
+                <td id="priority-communication">—</td>
+            </tr>
+
+            <tr>
+                <td id="rank-alignment">—</td>
+                <td>IT-Business Alignment</td>
+                <td id="score-alignment">Not assessed</td>
+                <td id="priority-alignment">—</td>
+            </tr>
+
+            <tr>
+                <td id="rank-adaptive">—</td>
+                <td>Adaptive or Situation-Based Governance Mechanisms</td>
+                <td id="score-adaptive">Not assessed</td>
+                <td id="priority-adaptive">—</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<script src="script.js"></script>
+</body>   
+</html>
